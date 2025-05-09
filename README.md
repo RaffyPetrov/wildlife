@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Wildlife Express Setup Guide</title>
+  <title>🐾 Wildlife Express Project Setup</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -13,6 +13,11 @@
     h1 {
       text-align: center;
       color: #2a7ae2;
+    }
+    p.intro {
+      text-align: center;
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
     }
     details {
       background: white;
@@ -37,10 +42,21 @@
     .step {
       margin-top: 1rem;
     }
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
   </style>
 </head>
 <body>
   <h1>🐾 Wildlife Express Project Setup</h1>
+  
+  <p class="intro">
+    This is a Node.js & Express-based application where users can publish animal-related posts, and others can vote on them.
+    Below is a detailed, interactive guide to run the app locally.
+  </p>
 
   <details open>
     <summary>📦 Prerequisites</summary>
@@ -49,7 +65,7 @@
       <ul>
         <li>✅ Node.js & npm installed</li>
         <li>✅ Git installed</li>
-        <li>✅ A terminal or code editor</li>
+        <li>✅ A terminal or code editor (e.g., VS Code)</li>
       </ul>
     </div>
   </details>
@@ -74,18 +90,28 @@ cd wildlife</code></pre>
 
   <details>
     <summary>🧪 Test API Endpoints</summary>
-    <p>You can use tools like <strong>Postman</strong> or <strong>cURL</strong> to test your endpoints:</p>
+    <p>You can use tools like <strong>Postman</strong> or <strong>cURL</strong> to test your API endpoints:</p>
     <pre><code>GET http://localhost:3000/api/animals</code></pre>
+    <p>This endpoint will return a list of animal posts, where each post can have votes and descriptions.</p>
+  </details>
+
+  <details>
+    <summary>📨 What This App Does</summary>
+    <ul>
+      <li>📝 Users can post animal-related content with details like name, description, and images.</li>
+      <li>👍 Other users can vote (upvote/like) these animal posts.</li>
+      <li>📊 Posts are displayed with the highest-voted posts appearing first.</li>
+    </ul>
   </details>
 
   <details>
     <summary>🛠 Environment Variables (Optional)</summary>
-    <p>If using a `.env` file, create it in the root and add:</p>
+    <p>If you're using a `.env` file, create it in the root directory and add the following:</p>
     <pre><code>PORT=3000
 MONGO_URI=mongodb://localhost:27017/wildlife</code></pre>
   </details>
 
-  <footer style="text-align:center; margin-top:2rem; font-size:0.9rem;">
+  <footer>
     Made with ❤️ by Raffy Petrov
   </footer>
 </body>
