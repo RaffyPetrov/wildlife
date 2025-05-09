@@ -82,6 +82,19 @@ cd wildlife</code></pre>
   </details>
 
   <details>
+    <summary>🔌 Key Dependencies</summary>
+    <p>The following dependencies are required for the project to function properly:</p>
+    <ul>
+      <li><strong>bcrypt</strong>: A library for hashing and checking passwords securely.</li>
+      <li><strong>express</strong>: The core web framework for building the server-side application.</li>
+      <li><strong>express-handlebars</strong>: Template engine used for rendering views (HTML files) dynamically.</li>
+      <li><strong>express-session</strong>: Middleware for managing user sessions (authentication and login tracking).</li>
+      <li><strong>mongoose</strong>: MongoDB object modeling library for interacting with MongoDB databases in an easy way.</li>
+    </ul>
+    <p>These dependencies are automatically installed when you run <code>npm install</code>.</p>
+  </details>
+
+  <details>
     <summary>🚀 Start the Server</summary>
     <p>To start the Express app:</p>
     <pre><code>npm start</code></pre>
