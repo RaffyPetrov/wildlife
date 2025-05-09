@@ -113,7 +113,7 @@ cd wildlife</code></pre>
     <ul>
       <li>📝 Users can post animal-related content with details like name, description, and images.</li>
       <li>👍 Other users can vote (upvote/like) these animal posts.</li>
-      <li>📊 Posts are displayed with the highest-voted posts appearing first.</li>
+      <li>📧 Posts display the emails of users who have voted on them.</li>
     </ul>
   </details>
 
