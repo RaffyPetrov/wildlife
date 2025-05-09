@@ -11,7 +11,7 @@ Before starting, make sure you have:
 ## 📁 Clone the Repository
 Run the following command to clone the repository:
 
-```bash
+
 git clone https://github.com/RaffyPetrov/wildlife.git
 cd wildlife
 
