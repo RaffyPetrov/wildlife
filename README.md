@@ -36,11 +36,6 @@ cd wildlife
     </div>
   </details>
 
-  <details>
-    <summary>📁 Clone the Repository</summary>
-    <pre><code>git clone https://github.com/RaffyPetrov/wildlife.git
-cd wildlife</code></pre>
-  </details>
 
   <details>
     <summary>📦 Install Dependencies</summary>
