@@ -1,54 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>🐾 Wildlife Express Project Setup</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f2f4f8;
-      padding: 2rem;
-      color: #333;
-    }
-    h1 {
-      text-align: center;
-      color: #2a7ae2;
-    }
-    p.intro {
-      text-align: center;
-      font-size: 1.1rem;
-      margin-bottom: 2rem;
-    }
-    details {
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      margin: 1rem 0;
-      padding: 1rem;
-    }
-    summary {
-      font-weight: bold;
-      font-size: 1.1rem;
-      cursor: pointer;
-    }
-    code, pre {
-      background: #f0f0f0;
-      padding: 0.4rem 0.6rem;
-      border-radius: 6px;
-      display: block;
-      margin: 0.5rem 0;
-      font-size: 0.95rem;
-    }
-    .step {
-      margin-top: 1rem;
-    }
-    footer {
-      text-align: center;
-      margin-top: 2rem;
-      font-size: 0.9rem;
-      color: #888;
-    }
-  </style>
+# 🐾 Wildlife Express Project Setup
+
+This is a Node.js & Express-based application where users can publish animal-related posts, and others can vote on them. Below is a detailed, interactive guide to run the app locally.
+
+## 📦 Prerequisites
+Before starting, make sure you have:
+- ✅ Node.js & npm installed
+- ✅ Git installed
+- ✅ A terminal or code editor (e.g., VS Code)
+
+## 📁 Clone the Repository
+Run the following command to clone the repository:
+
+```bash
+git clone https://github.com/RaffyPetrov/wildlife.git
+cd wildlife
+
 </head>
 <body>
   <h1>🐾 Wildlife Express Project Setup</h1>
